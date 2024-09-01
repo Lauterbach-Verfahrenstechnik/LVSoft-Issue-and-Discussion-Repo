@@ -1,0 +1,17 @@
+name: Other
+description: Other contents
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If you wish to report issues occurring during the app's runtime (non-functional features, etc.), please switch to the Bug Report template.
+
+        If you would like to make feature requests or optimization suggestions, please switch to the Feature Request template.
+
+        For any other situations, please fill out and submit the content here.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Content
+    validations:
+      required: true
